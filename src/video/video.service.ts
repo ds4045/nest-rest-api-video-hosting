@@ -1,8 +1,8 @@
 import { Injectable, NotFoundException } from '@nestjs/common'
 import { InjectRepository } from '@nestjs/typeorm'
-import { VideoEntity } from './entities/video.entity'
 import { FindOptionsWhereProperty, ILike, MoreThan, Repository } from 'typeorm'
 import { VideoDto } from './dto/video.dto'
+import { VideoEntity } from './entities/video.entity'
 
 @Injectable()
 export class VideoService {
